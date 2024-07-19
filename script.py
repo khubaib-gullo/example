@@ -1,4 +1,4 @@
-# array = [1,21,[3,4,5],6,[8,9,[10,11,12],13],14,15]
+array = [1,21,[3,4,5],6,[8,9,[10,11,12],13],14,15]
 #
 
 # output
@@ -14,15 +14,16 @@
 # fun(array)            
 
 
+import numpy 
+
+data = numpy.asarray(array)
+print(data)
 
 
 
 
 
-def chain(*iterables):
-    # chain('ABC', 'DEF') → A B C D E F
-    for iterable in iterables:
-        yield from iterable
+
 
 # array = ['abc', ['d', 'ef'], 'r', ['o']]
 # def fun1(array):

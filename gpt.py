@@ -14,9 +14,9 @@ def flatten(lst):
 
 array = [1,21,[3,4,5],6,[8,9,[10,11,12],13],14,15]
 
-
+print(array(21))
 print(flatten(array))
 # a1 = [3, 4, 5]
 # a2 = [6, 7, 8, [10, 11]]
-# data = a1.extend(a2)
-# print(a1)
+# data = a1+a2
+# print(data)
